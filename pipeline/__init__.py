@@ -5,7 +5,7 @@ from . import test
 
 def CreateUser(args):
     logging.info("CreateUser has been started!")
-    test.test()
+    test()
     logging.info("CreateUser has been finished!")
 
 def MigrateDB(args):
