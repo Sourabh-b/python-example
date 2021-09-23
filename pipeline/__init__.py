@@ -1,12 +1,12 @@
 from gaiasdk import sdk
 import logging
 import time
-from . import test.Test
+from . import test
 
 def CreateUser(args):
     logging.info("CreateUser has been started!")
-    test = Test()
-    test.test()
+    test_ = test.Test()
+    test_.test()
     logging.info("CreateUser has been finished!")
 
 def MigrateDB(args):
