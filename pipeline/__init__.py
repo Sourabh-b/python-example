@@ -1,7 +1,7 @@
 from gaiasdk import sdk
 import logging
 import time
-from test import Test
+from . import Test
 
 def CreateUser(args):
     logging.info("CreateUser has been started!")
