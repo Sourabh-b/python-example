@@ -1,2 +1,2 @@
-def test(self):
+def test():
   print("Inside Test")
