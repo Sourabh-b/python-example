@@ -1,5 +1,5 @@
 class Test:
   def __init__(self):
     pass
-  def test():
+  def test(self):
     print("Inside Test")
